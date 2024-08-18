@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+#Background{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+        rgba(68, 214, 10, 0.7),
+        rgba(95, 8, 8, 0.5),
+        rgba(236, 7, 83, 0.5)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#calculater{
+    padding: 20px;
+    background-color:coral;
+    border-radius: 10px;
+    /* text-align: center; */  /*ye property apne child ke text or elements ko center mein karti hai or uske child ke child ko bhi center mein krwa deti hai matlab ye apne grand child ke texts or elemnts ko bhi center mein kar degi*/
+}
+
+#screen{
+    height: 55px;
+    width: 290px;
+    border-radius: 10px;
+    text-align: right;
+    padding: 5px;
+    font-size: 26px;
+}
+
+.btn{
+    width: 60px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn-div1{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;; 
+}
+
+.btn-div2{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
